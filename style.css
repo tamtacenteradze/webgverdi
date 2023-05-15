@@ -1,25 +1,27 @@
-div{
-    margin: 10px;
-    border: 1px solid black;
-    font-size: 20px;
-    height: 80px;
+ul.nav{
+    margin: left 0px;
+    padding-left: 0px;
+    list-style: none;
+
 }
 
-#header{
-    background-color: blueviolet;
+
+.nav li{
+    float: left;
 }
-#sidebar{
-    background-color: blueviolet;
-    float:right;
-    width:150px;
-    
- 
+ul.nav a{
+    display: block;
+    width: 7em;
+    padding: 10px;
+    margin: 0 5px;
+    background-color: green;
+    border: 1px dashed blue;  
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
 }
-#main{
-    background-color: blueviolet;
-    height: 200px;
-    margin-left:170px;
-}
-#footer{
-    background-color: blueviolet;
+ul.nav a:hover{
+    background-color: brown;
+    color: aqua;
 }
